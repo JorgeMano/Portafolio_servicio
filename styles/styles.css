@@ -142,6 +142,16 @@ aside > section{
         font-size: 35px;
     }
 
+    .texto{
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .texto > p{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
     aside > section{
         padding: 30px;
         display: flex;
@@ -149,6 +159,8 @@ aside > section{
         align-items: center;
         margin-top: 30px;
     }
+
+    
 
 }
 

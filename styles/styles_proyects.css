@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fuzzy Bubbles;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    width: 100%;
+}
+
+header > nav{
+    width: 90%;
+    max-width: 600px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+header > nav> ul{
+    overflow: hidden;
+    list-style: none;
+    background-color: black;
+}
+
+header > nav > ul > li{
+    float: left;
+}
+
+header > nav > ul > li > a{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+header > nav > ul > li > span {
+    margin-right: 15px;
+}
+
+header > nav > ul > li > a:hover{
+    background-color: rgb(32, 32, 19);
+}
+
+.menu > .menu-push{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.jmano{
+    display: none;
+}
+/*------------------------------------------------------------------*/
+main > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main > section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conding{
+    margin-top: 120px ;
+    width: 350px;
+}
+main > h3{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+@media  only screen and (max-width: 768px) { 
+    header > nav{
+        width: 50%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+
+    header > nav > ul > li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgb(185, 218, 214 .3);
+    }
+    
+    .menu{
+        display: block;
+        width: 100%;
+        color: white;
+    }
+    
+    .menu > .menu-push{
+        display: block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .jmano{
+        display: block;
+        float: right;
+        font-size: 35px;
+    }
+}

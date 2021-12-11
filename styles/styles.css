@@ -83,6 +83,10 @@ main > div{
     padding: 20px;
 }
 
+.texto > p{
+    margin-right: 250px;
+    margin-left: 250px;
+}
 /*------------------------------------------------------------------*/
 section > div > ul{
     list-style: none;
